@@ -50,7 +50,7 @@
             <i id="show"></i>
     <label>Choose Seating</label>
         <select class="form-select" id="shower">
-            <option value="none">pls choose</option>
+            <option value="none">Choose</option>
             <option value="1">Balcony Center</option>
             <option value="2">Balcony Right</option>
             <option value="3">Balcony Left</option>
@@ -65,13 +65,15 @@
     <label>Seating Prices</label>
         <select class="form-select" id="shower">
             <option value="discount">Choose</option>
-            <option value="1">Value of A</option>
-            <option value="2">Value of B</option>
-            <option value="3">Value of C</option>
+            <option value="1">Balcony: ₱3,174</option>
+            <option value="2">Orch: ₱6,348</option>
+            <option value="3">VIP: ₱8,464</option>
         </select>
 <br>
 <button type="Submit" class="btn" onclick="Submit1()">
     Submit </button>
+<br>
+    <img src="image.png">
 </form>
 
 <script>
@@ -85,13 +87,6 @@
 
 
         window.alert("^-^ You may now proceed to the next part" + name)
-    }
-
-    function Submit(){
-            var name = document.getElementById("text1").value;
-
-
-        window.alert("Thank you for purchasing your ticket" + name)
     }
 </script>
 
